@@ -8,10 +8,14 @@ h1 {
 
 
 h2 {
-   align-self: center;
+   text-align: center;
    font-size: 35px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    color: brown;
+   text-shadow:2px 2px white;
+   background-color:black;
+   border: 2px pink;
+   border-radius:2px;
 }
 
 
