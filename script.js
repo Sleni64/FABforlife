@@ -1,3 +1,6 @@
+const mydrinks = ["projecttea","mondoscoffeehouse"]
+
+
 function openTab(evt, tabName) {
  var i, tabcontent, tablinks;
  tabcontent = document.getElementsByClassName("tabcontent");
@@ -9,6 +12,18 @@ function openTab(evt, tabName) {
    tablinks[i].className = tablinks[i].className.replace(" active", "");
  }
  document.getElementById(tabName).style.display = "block";
- evt.currentTarget.className += " active";
+ evt.currentTarget.className += "active";
 }
+
+
+//random drinks
+document.getElementById("randomdemo").innerHTML=mydrinks[Math.floor(Math.random()*mydrinks.length)];
+
+
+function scrollToSection(sectionId) {
+   const section = document.getElementById(sectionId);
+   section.scrollIntoView({behavior:"smooth"});
+}
+
+
 

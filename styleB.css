@@ -94,5 +94,14 @@ a:hover
 }
 
 
+button
+{
+   margin: 5px;
+   padding: 10px;
+   color: blue;
+   background-color: blueviolet;
+}
+
+
 
 
