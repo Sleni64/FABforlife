@@ -1,4 +1,10 @@
-const mydrinks = ["projecttea","mondoscoffeehouse"]
+const mylocal = ["bstreet","acataco","celestinos","unwindkitchenandbar","strongwater"]
+
+
+const mydrinks = ["projecttea","mondoscoffeehouse","thebobastop","dutchbros","starbucks"]
+
+
+const myfastfood = ["wingstop","tacobell","canes","jersymikes","pandaexpress"]
 
 
 function openTab(evt, tabName) {
@@ -18,6 +24,10 @@ function openTab(evt, tabName) {
 
 //random drinks
 document.getElementById("randomdemo").innerHTML=mydrinks[Math.floor(Math.random()*mydrinks.length)];
+
+
+
+
 
 
 function scrollToSection(sectionId) {
