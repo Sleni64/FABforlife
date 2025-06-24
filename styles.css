@@ -167,3 +167,27 @@ button {
    font-size: 26px;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
+
+* {box-sizing: border-box;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.active {
+  background-color: #717171;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
