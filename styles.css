@@ -288,7 +288,7 @@ img {
   font-weight: 200;
   font-size: 11px;
   text-transform: uppercase;
-  letter-spacing: 0.5em;
+  letter-spacing: 5 px;
 }
 
 .ml15 .word {
