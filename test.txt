@@ -1,0 +1,22 @@
+let slideIndex1 = 0;
+let slideIndex2 = 0;
+
+function showSlides(slideshowId, slideIndex) {
+    let i;
+    const slides = document.querySelectorAll(`#${slideshowId}.mySlides`);
+    
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  // Hide all slides
+    }
+    
+    slideIndex++; // Increment index
+    if (slideIndex > slides.length) { slideIndex = 1 } // Loop back to the first slide
+    slides[slideIndex - 1].style.display = "block"; // Show the current slide
+    
+    // Change slide every 2 seconds (2000 milliseconds)
+    setTimeout(() => showSlides(slideshowId, slideIndex), 2000);
+}
+
+// Start slideshows
+showSlides('slideshow1', slideIndex1);
+showSlides('slideshow2', slideIndex2);
