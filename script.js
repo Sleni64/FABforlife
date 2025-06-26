@@ -1,14 +1,22 @@
 const mylocal = ["bstreet", "acataco", "celestinos", "unwindkitchenandbar", "strongwater"]
 
 
+
+
 const mydrinks = ["projecttea", "mondoscoffeehouse", "thebobastop", "dutchbros", "starbucks"]
+
+
 
 
 const myfastfood = ["wingstop", "tacobell", "canes", "jerseymikes", "pandaexpress"]
 
 
+
+
 let slideIndex = 0;
 showSlides();
+
+
 
 
 function showSlides() {
@@ -21,9 +29,13 @@ function showSlides() {
     if (slideIndex > slides.length) { slideIndex = 1 }
 
 
+
+
     slides[slideIndex - 1].style.display = "block";
     setTimeout(showSlides, 3000); //change image every 2 seconds
 }
+
+
 
 
 function openTab(evt, tabName) {
@@ -41,12 +53,18 @@ function openTab(evt, tabName) {
 }
 
 
+
+
 //random local
 //document.getElementById("randomlocal").innerHTML=mylocal[Math.floor(Math.random()*mylocal.length)];
 
 
+
+
 //random drinks
 //document.getElementById("randomdrinks").innerHTML=mydrinks[Math.floor(Math.random()*mydrinks.length)];
+
+
 
 
 //random chiain
@@ -54,10 +72,17 @@ function openTab(evt, tabName) {
 
 
 
+
+
+
 function scrollToSection(sectionId) {
     const section = document.getElementById(sectionId);
     section.scrollIntoView({ behavior: "smooth" });
 }
+
+
+
+
 
 
 
@@ -79,9 +104,11 @@ anime.timeline({loop: true})
     delay: 1000
   });
 
+
   // animate the title
 var textWrapper = document.querySelector('.ml12');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
 
 anime.timeline({loop: true})
   .add({
@@ -100,3 +127,4 @@ anime.timeline({loop: true})
     duration: 1100,
     delay: (el, i) => 100 + 30 * i
   });
+

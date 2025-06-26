@@ -5,6 +5,8 @@ h1 {
 }
 
 
+
+
 h2 {
    text-align: center;
    font-size: 40px;
@@ -17,11 +19,15 @@ h2 {
 }
 
 
+
+
 body {
    background-color: rgb(237, 241, 230);
    font-family: Arial;
    align-content: center;
 }
+
+
 
 
 /* Style the tab */
@@ -31,6 +37,8 @@ body {
    border-width: 10px;
    background-color: mistyrose
 }
+
+
 
 
 /* Style the buttons inside the tab */
@@ -50,16 +58,22 @@ body {
 }
 
 
+
+
 /* Change background color of buttons on hover */
 .tab button:hover {
    background-color: rgb(234, 162, 174)
 }
 
 
+
+
 /* Create an active/current tablink class */
 .tab button.active {
    background-color: pink;
 }
+
+
 
 
 /* Style the tab content */
@@ -72,12 +86,16 @@ body {
 }
 
 
+
+
 /*flex-container-ex... ex=extirior*/
 .flex-container-ex {
    display: flex;
    flex-direction: column;
    background-color: rgb(221, 238, 214);
 }
+
+
 
 
 .flex-container-ex>div {
@@ -88,11 +106,15 @@ body {
 }
 
 
+
+
 /*flex-container-in... in=interior*/
 .flex-container-in {
    display: flex;
    flex-direction: row;
 }
+
+
 
 
 .flex-container-in>div {
@@ -103,6 +125,8 @@ body {
 }
 
 
+
+
 /*normal link style*/
 a {
    color: brown;
@@ -110,11 +134,15 @@ a {
 }
 
 
+
+
 /**/
 a:hover {
    color: aqua;
    text-decoration: underline;
 }
+
+
 
 
 button {
@@ -130,21 +158,28 @@ button {
 }
 
 
+
+
 * {
    box-sizing: border-box;
 }
+
 
 body {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 .mySlides {
    display: none;
 }
 
+
 img {
    vertical-align: middle;
 }
+
+
 
 
 /*slideshow container*/
@@ -155,9 +190,13 @@ img {
 }
 
 
+
+
 .active {
    background-color: #717171;
 }
+
+
 
 
 /*fading animation*/
@@ -167,15 +206,20 @@ img {
 }
 
 
+
+
 @keyframes fade {
    from {
       opacity: .4
    }
 
+
    to {
       opacity: 1
    }
 }
+
+
 
 
 /*on smaller screens decrease text size*/
@@ -185,6 +229,7 @@ img {
    }
 }
 
+
 .ml15 {
    font-weight: 200;
    font-size: 11px;
@@ -192,10 +237,12 @@ img {
    letter-spacing: 5 px;
 }
 
+
 .ml15 .word {
    display: inline-block;
    line-height: 1em;
 }
+
 
 .ml12 {
    font-weight: 200;
@@ -204,7 +251,10 @@ img {
    letter-spacing: 0.5em;
 }
 
+
 .ml12 .letter {
    display: inline-block;
    line-height: 1em;
 }
+
+
